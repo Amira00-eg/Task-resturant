@@ -1,0 +1,180 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+header{
+  background-color: #e7efee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 100px;
+}
+
+nav{
+  display: flex;
+}
+
+nav a{
+  padding:10px 15px 10px 15px;
+  color: black;
+}
+
+.bt1{
+  background-color: #ffffff;
+  color: #041925;
+  font-size: 22px;
+  font-weight: 50px;
+  border-radius: 50px;
+  width: 250px;
+  padding: 15px;
+  border: 2px dotted white;
+  margin: 20px 0 20px 0; 
+  cursor: pointer;
+}
+
+.bt1:hover{
+  background-color: #041925;
+  color: #e7efee;
+  font-size: 22px;
+  font-weight: 50px;
+  border-radius: 50px;
+  width: 250px;
+  padding: 15px;
+  border: 2px dotted white;
+  margin: 20px 0 20px 0; 
+}
+
+#About{
+  padding-bottom: 15px;
+  background-color: #e7efee;
+}
+
+.sec{
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#Home{
+  background-color: #041925;
+}
+
+.text1{
+  color: white;
+}
+
+.menu{
+  color: #e7efee;
+}
+
+#Menu{
+  background-color: #041925;
+}
+
+.food{
+  display: flex;
+  justify-content: center;
+  display: inline-block;
+  background-color: white;
+  width: 350px;
+  border-radius: 10px;
+  border: solid 2px black;
+  padding: 25px;
+  margin: 15px;
+}
+
+
+h2{
+  text-align: center;
+  padding: 20px 0 20px 0;
+}
+
+img{
+  height: 250px;
+  width: 250px;
+  padding: 20px;
+  border-radius: 30PX;
+}
+
+.bt2{
+  background-color: #041925;
+  color: white;
+  font-size: 20px;
+  font-weight: 40px;
+  border-radius: 50px;
+  width: 200px;
+  padding: 10px;
+  border: 2px dotted #041925;
+  margin: 20px 0 20px 0; 
+}
+
+.bt2:hover{
+  transform: scale(1.1);
+}
+
+#Offers{
+  background-color: #e7efee;
+  padding-bottom: 30px;
+}
+
+.order{
+  
+  background-color: #041925;
+  color: white;
+  padding: 0 0 30px 0;
+}
+input{
+  margin: 10px;
+}
+
+textarea{
+  margin: 10px;
+}
+
+select{
+  margin: 10px;
+}
+
+.bt3{
+  background-color: #e7efee;
+  font-size: 20px;
+  font-weight: 40px;
+  border-radius: 50px;
+  width: 200px;
+  padding: 10px;
+  border: 2px solid #041925;
+  margin: 10px 0 20px 0; 
+}
+
+#Contact{
+  background-color: #e7efee;
+  text-align: center;
+  padding: 0 0 30px 0;
+}
+
+#follow{
+  background-color: #041925;
+  color: white;
+  text-align: center;
+  padding: 0 0 30px 0;
+}
+
+a{
+  text-decoration: none;
+  color: #e7efee;
+}
+
+footer{
+  background-color: #e7efee;
+  text-align: center;
+  padding: 20px 0 20px 0;
+}
+
+@media (max-width:600px){
+  body{
+    display: inline-block;
+  }
+}
